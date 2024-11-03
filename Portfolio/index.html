@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- Swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Mercy.M <i class='bx bx-code-alt' ></i></a>
+
+        <nav  class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Resume</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonial">Testimonials</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--Home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <!-- <div class="top-img">
+                <img src="./assets/topimg.jpg" width="200px" alt="">
+            </div> -->
+            <h3 class="text2">Hello, I am</h3>
+            <h1 class="text3">Mercy A. Magero</h1>
+            <p class="text4">"Welcome to my portfolio, where creativity meets technology, showcasing my passion for crafting dynamic and user-friendly web experiences." </p>
+
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <a href="./assets/MyResume.pdf" class="btn" download="">Resume <i class='bx bx-download' style='color:#ffffff' ></i></a>
+
+            <div class="little-contents">
+                <div class="divs">
+                    <p class="numbers" data-val="04">00</p>
+                    <p class="text">Years of experience</p>
+                </div>
+                <div class="divs">
+                    <p class="numbers" data-val="24">00</p>
+                    <p class="text">Projects Completed</p>
+                </div>
+                <div class="divs">
+                    <p class="numbers" data-val="08">00</p>
+                    <p class="text">Technologies mastered</p>
+                </div>
+                <div class="divs">
+                    <p class="numbers" data-val="89">00</p>
+                    <p class="text">Code commits</p>
+                </div>
+            </div>
+
+            <div class="invisible-div">
+
+            </div>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-photo-album'></i>
+                    <h3>Graphics Design </h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-photo-album'></i>
+                    <h3>Payment Intergration </h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-mouse-alt'></i>
+                    <h3>Mobile App Development</h3>
+                </div>
+
+                <div class="circle"></div>
+
+            </div>
+            <div class="overlay">
+
+            </div>
+        </div>
+
+        <div class="random-div"></div>
+        <div class="home-img">
+            <img src="./assets/bg4.png" width="440px" alt="">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+
+    <section class="about" id="about">
+
+        <div class="headers">
+            <h2 class="heading">My <span>Resume</span></h2>
+        </div>
+        <div class="resume-container">
+            
+            <div class="left">
+                <h1 style="text-decoration: none;">Why hire me? </h1>
+                <p></p>
+                <div class="buttons">
+                    <div class="aboutme">
+                        <button type="submit" id="hideaboutme" class="resume-btn">About me <i class='bx bxs-user-circle'></i> </button>
+                    </div>
+                    <div class="education">
+                        <button type="submit"id="hideeducation" class="resume-btn">Education <i class='bx bxs-graduation'></i></button>
+                    </div>
+                    <div class="experience">
+                        <button type="submit" id="hideexperience" class="resume-btn">Experiences <i class='bx bxs-briefcase-alt-2'></i></i></button>
+                    </div>
+                    <div class="skills">
+                        <button type="submit" id="hideskills" class="resume-btn">Skills <i class='bx bx-code-block' ></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="detailed-about" id="detailed-about">
+                    <div class="top-div">
+                        <h1>About Me</h1>
+                        <p class="text1">A passionate web developer with a knack for blending innovative design and seamless functionality, I thrive on transforming ideas into engaging digital experiences. With a strong foundation in HTML, CSS, and JavaScript, along with a love for learning new technologies, I aim to create websites that not only look great but also provide exceptional user experiences.</p>
+                        <!-- <p>A passionate web developer with a knack for blending innovative design and seamless functionality, I thrive on transforming ideas into engaging digital experiences. Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including Java, ASP.NET, C#, IIS, Tomcat, and Microsoft SQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p> -->
+                    </div>
+                    <!-- about me -->
+                    <div class="myinformation">
+                        <div class="left">
+                            <div>Name: <span>Mercy Magero</span></div>
+                            <div>Experience: <span>4+ Years</span></div>
+                            <div>Nationality: <span>Kenyan</span></div>
+                            <div>Freelance: <span>Available</span></div>
+                        </div>
+                        <div class="right">
+                            <div>Phone:  <span>0748959672</span></div>
+                            <div>Email:  <span>mercymagero@gmail.com</span></div>
+                            <div>Language:  <span>English, Kiswahili</span></div>
+                            <div>Freelance:  <span>Available</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detailed-education" id="detailed-education">
+                    <div class="top-div">
+                        <h1>Education</h1>
+                    </div>
+    
+                    <!-- education -->
+                    <div class="bottom-div education-content">
+                        <div class="little-div">
+                            <div>2019 - 2024</div>
+                            <p>Bachelor of Science Information Technology</p>
+                            <div><i class='bx bxs-school'></i>Mount Kenya University</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2023 - 2024</div>
+                            <p> Software Engineering</p>
+                            <div><i class='bx bxs-school'></i>ALX</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2015 - 2018</div>
+                            <p>High school Diploma</p>
+                            <div><i class='bx bxs-school'></i>Huma Girls Secondary School</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2022 - 2023</div>
+                            <p>AI Certification</p>
+                            <div><i class='bx bxs-school'></i>IBM</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detailed-experience" id="detailed-experience">
+                    <div class="top-div">
+                        <h1>My experience</h1>
+                    </div>
+            
+                    <!-- experience -->
+                    <div class="bottom-div experience-content">
+                        <div class="little-div">
+                            <div>2024 - 2024</div>
+                            <p>Fullstack web developer </p>
+                            <div>Freelancer</div>
+                            <div><i class='bx bxs-map' ></i>Alsops, Nairobi</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2023 - 2024 (6months)</div>
+                            <p>ERP Consoltant</p>
+                            <div>Dynasoft business Solutions</div>
+                            <div><i class='bx bxs-map' ></i>Applewood Adams, Ngong Road, Nairobi</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2022 - 2023</div>
+                            <p>Web Developer </p>
+                            <div>Megg Beauty</div>
+                            <div><i class='bx bxs-map' ></i>Westlands, Nairobi</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2022 - 2023</div>
+                            <p>Graphics Designer and Frontend Dev</p>
+                            <div>Elimu Tech Center</div>
+                            <div><i class='bx bxs-map' ></i>Thika, Kiambu</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2022 - 2023</div>
+                            <p>Graphics Designer </p>
+                            <div>Benco Tech Enterprise</div>
+                            <div><i class='bx bxs-map' ></i>Alsops, Nairobi</div>
+                        </div>
+                        <div class="little-div">
+                            <div>2022 - 2023</div>
+                            <p>Graphics Designer and Frontend Dev</p>
+                            <div>Elimu Tech Center</div>
+                            <div><i class='bx bxs-map' ></i>Thika, Kiambu</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detailed-skills" id="detailed-skills">
+                    <div class="top-div">
+                        <h1>My Skills</h1>
+                    </div>
+                  
+                    <!-- skills -->
+                    <div class="bottom-div skills-content">
+                        <div class="little-div">
+                            <p>Languages </p>
+                            <div class="languages">
+                                <i class='bx bxl-javascript'></i><span>JavaScript</span>
+                                <i class='bx bxl-python' style='color:#080808'  ></i><span>Python</span>
+                                <i class='bx bxl-typescript' style='color:#080808' ></i><span>Typescript</span>
+                                <i class='bx bxl-html5' style='color:#080808' ></i><span>HTML</span>
+                                <i class='bx bxl-css3' style='color:#080808' ></i><span>CSS5</span>
+
+                            </div>
+
+                        </div>
+                        <div class="little-div">
+                            <p>Frameworks</p>
+                            <div class="languages">
+                                <i class='bx bxl-react' style='color:#080808' ></i> <span>React.Js</span>
+                                <i class='bx bxl-react' style='color:#080808' ></i>React Native
+                            </div>
+                        </div>
+                        <div class="little-div">
+                            <p>Database</p>
+                            <div class="languages">
+                                <i class='bx bxl-mongodb' style='color:#080808' ></i>Mongo DB
+                                <i class='bx bxl-postgresql' style='color:#080808' ></i>PostgreSQL
+                            </div>
+                        </div>
+                        <div class="little-div">
+                            <p>Others</p>
+                            <div class="languages">
+                                <i class='bx bxl-git'></i>Git
+                                <i class='bx bxl-github'></i>Github
+                                <i class='bx bxl-tailwind-css'></i>Tailwind CSS
+                                <i class='bx bxl-nodejs' ></i>Node.js
+                            </div>
+                        </div>
+                        <div class="little-div">
+                            <p>Cloud </p>
+                            <div class="languages">
+                                <i class='bx bxl-aws'></i>aws
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section Design-->
+    <section class="services" id="services">
+        <h3 class="heading">My <span>Services</span></h3>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <div>
+                    <ul>
+                        <li>Custom Web Development</li>
+                        <li>E-commerce Development</li>
+                        <li>Web Maintenance and Support</li>
+                        <li>API intergration and Third-party Services</li>
+                    </ul>
+                </div>       
+                <div class="services-icons">
+                    <i class='bx bxl-javascript'></i>
+                    <i class='bx bxl-nodejs' ></i>
+                    <i class='bx bxl-react' ></i>
+                    <i class='bx bxl-mongodb' ></i>
+                    <img src="./assets/icons8-nodejs-48.png" alt="">
+                    <div>
+                        <img src="./assets/icons8-mysql-50.png" alt="">
+                    </div>
+                </div>         
+            </div>
+            <div class="services-box">
+                <i class='bx bx-edit'></i>
+                <h3>Graphics Design</h3>
+                <div>
+                    <ul>
+                        <li>Web and UI/UX design</li>
+                        <li>Product package design</li>
+                        <li>Brand identity and Logo design</li>
+                        <li>Print designs</li>
+                        <li>Packaging designs</li>
+                        <li>Illustrations and art work</li>
+                        <li>Stamps and Business card</li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <img src="./assets/icons8-photoshop-48.png" >
+                    <img src="./assets/icons8-coreldraw-logo-48.png" alt="">
+                </div> 
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Mobile App Development</h3>
+                <div>
+                    <ul>
+                        <li>Custom Mobile App Development</li>
+                        <li>UI/UX designs for mobile apps</li>
+                        <li>Mobile App Testing and Quality Assurance</li>
+                        <li>App Maintenance and Support</li>
+                        <li>App Deployment</li>
+                    </ul>
+                </div>  
+                <div class="services-icons">
+                    <i class='bx bxl-react' ></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="assets/project3.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>Megg Beauty E-commerce Website</h2>
+                    <div>
+                        <i class='bx bxl-html5'></i>
+                        <i class='bx bxl-css3' style='color:#ffffff' ></i>
+                        <i class='bx bxl-javascript' style='color:#ffffff' ></i>
+                        <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
+                        <i class='bx bxl-mongodb' style='color:#ffffff' ></i>
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="assets/api.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>API Intergration </h2>
+                    <div>
+                        <i class='bx bxl-html5'></i>
+                        <i class='bx bxl-css3' style='color:#ffffff' ></i>
+                        <i class='bx bxl-javascript' style='color:#ffffff' ></i>
+                        <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
+                        <i class='bx bxl-mongodb' style='color:#ffffff' ></i>
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="assets/crm1.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>Customer Relation Management</h2>
+                    <div>
+                        <i class='bx bxl-react' ></i>
+                        <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
+                        <i class='bx bxl-mongodb' style='color:#ffffff' ></i>
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="assets/zam.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>Zam Zam Orphanage and Islamic Center</h2>
+                    <div>
+                        <i class='bx bxl-react' ></i>
+                        <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
+                        <i class='bx bxl-mongodb' style='color:#ffffff' ></i>
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="assets/grap.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>Business card</h2>
+                    <div>
+                        <img src="./assets/icons8-photoshop-48.png" alt="">
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="assets/mobi.PNG" alt="">
+
+                <div class="project-layer">
+                    <h2>Megg Beauty E-commerce Website</h2>
+                    <div>
+                        <i class='bx bxl-html5'></i>
+                        <i class='bx bxl-css3' style='color:#ffffff' ></i>
+                        <i class='bx bxl-javascript' style='color:#ffffff' ></i>
+                        <i class='bx bxl-nodejs' style='color:#ffffff' ></i>
+                        <i class='bx bxl-mongodb' style='color:#ffffff' ></i>
+                    </div>
+                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-container" id="testimonial">
+        <h2 class="heading">Testimonials</h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="assets/passport.jpg" width="100px" alt="">
+                        <h3>Constant Ben Wafula</h3>
+                        <p>"Working with Magero was a breeze. Her attention to detail and commitment to delivering quality work really set her apart. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="assets/p1.png" width="150px" alt="">
+                        <h3>Lydia Njoroge </h3>
+                        <p>"Our website went from outdated to stunning thanks to Magero. Her design instincts and technical skills created a site that not only looks great but functions seamlessly."</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="assets/testimonial1.png" width="100px" alt="">
+                        <h3>Cindy June</h3>
+                        <p> "Our e-commerce platform was in dire need of a revamp, and [Your Name] made it happen. They integrated a smooth checkout process and payment system, and now managing our inventory is so much easier." </p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+        <h2 class="heading">My Contacts</h2>
+
+        <div class="contacts-container">
+            <div class="left">
+                <h2>Let's Work Together</h2>
+                <p></p>
+                <form action="" class="contact-form" method="post">
+                    <div class="row">
+                        <input type="text" placeholder="First Name" id="first-name">
+                        <input type="text" placeholder="Last Name" id="last-name">
+                    </div>
+                    <div class="row">
+                        <input type="email" placeholder="Email Address" id="">
+                        <input type="number" placeholder="Phone Number" id="phone">
+                    </div>
+                    <div class="row">
+                        <select name="service" placeholder="Select a Service" id="web development">
+                            <option value="" aria-placeholder="Select a Service">Select a Service</option>
+                            <option value="wd">Web Development</option>
+                            <option value="md">Mobile App Development</option>
+                            <option value="gd">Graphics Design</option>
+                            <option value="cn">Consultation</option>
+                            <option value="pc">Project Collaboration</option>
+                        </select>
+                    </div>
+                    <textarea name="message" id="message" cols="20" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="right" id="contancts-icon">
+                <div class="right-row phone">
+                    <div class="icon-right"><i class='bx bxs-phone'></i></div>
+                    <div class="text">
+                        <div class="text3">Phone</div>
+                        <div class="text4">(+254) 748 959 672</div>
+                    </div>
+                </div>
+                <div class="right-row email">
+                    <div class="icon-right"><i class='bx bxs-envelope' ></i></div>
+                    <div class="text"> 
+                        <div class="text3">Email</div>
+                        <div class="text4">mercymagero@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-row location">
+                    <div class="icon-right"><i class='bx bxs-map'></i></div>
+                    <div class="text">
+                        <div class="text3">Location</div>
+                        <div class="text4">Nairobi, Alsops</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by MercyMagero | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+ 
+</body>
+</html>
